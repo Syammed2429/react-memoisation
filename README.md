@@ -1,8 +1,16 @@
-https://react-memoisation.vercel.app/
+# ReactMemoisation
 
-# ReactMemo
+<h1 align="center">
+<a  href="https://react-memoisation.vercel.app/" title="react-memo"> Demo Live Link </a>
+</h1>
 
-React.memo is a higher order component.
+This project was built using these technologies.
+
+- React
+- React Bootstrap
+- VsCode
+- Deployed On Vercel
+  React.memo is a higher order component.
 
 If your component renders the same result given the same props, you can wrap it in a call to React.memo for a performance boost in some cases by memoizing the result. This means that React will skip rendering the component, and reuse the last rendered result.
 
@@ -98,3 +106,23 @@ return (
 );
 }
 ```
+
+### 🛠 Installation and Setup Instructions
+
+To get started just clone this repository. You will need `node.js` and `git` installed globally on your machine.
+
+Run
+
+```
+npm install
+```
+
+```
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Show your support
+
+Give a ⭐ fork, and contribute if you like this project !
